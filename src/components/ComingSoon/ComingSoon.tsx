@@ -18,14 +18,14 @@ const ComingSoon = () => {
           <p className="text-dark text-sm md:text-xl py-4">Subscribe and get notified</p>
         </div>
         {/* Form */}
-        <div className="md:flex items-center py-4 mb-8 gap-4">  
-          <div className="h-12 mb-4 md:mb-0">
+        <div className="md:flex items-center px-5 py-4 mb-8 gap-4">  
+          <div className="text-sm h-12 mb-3 md:mb-0">
             <input 
               className="text-primary border border-light focus:border-primary focus:outline-none px-6 w-full md:w-72 h-full rounded-full overflow-hidden"
               placeholder="Your email address..."
             />
           </div>
-          <button className="font-semibold bg-primary rounded-full text-white w-full md:w-auto px-12 py-3 shadow-lg shadow-blue-200">
+          <button className="font-semibold bg-primary rounded-full text-sm text-white w-full md:w-auto px-12 py-3 shadow-lg shadow-blue-200">
             Notify Me
           </button>
         </div>
