@@ -27,6 +27,7 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 - [Tailwind](https://tailwindcss.com/) - For styles
 - [Vitest](https://vitest.dev/) - Testing framework
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) - For tests
+- [React Icons](https://react-icons.github.io/react-icons//) - For Icons
 
 ## Getting Started
 

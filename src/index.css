@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-html, body { font-size: 15px; min-height: 100%; margin: 0; padding: 0; }
+html, body { font-size: 20px; min-height: 100%; margin: 0; padding: 0; }
 body { height: 100%; }
 #root { min-height: 100vh; }
 
 main { background-color: '#fff'; }
 
-.text-dark { color: hsl(218, 44%, 22%); }
-.text-light { color: hsl(220, 15%, 55%); }
+.text-dark { color: hsl(209, 33%, 12%); }
+.text-light { color: hsl(0, 0%, 59%); }
