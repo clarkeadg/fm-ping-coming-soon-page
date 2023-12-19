@@ -32,7 +32,7 @@ const ComingSoon = () => {
       <div className="px-5">
         {/* Logo */}
         <div className="py-4 mt-6 mb-8">  
-          <img src={logoUrl} className='m-auto'/>
+          <img src={logoUrl} alt="Ping" className='m-auto'/>
         </div>
         {/* Copy */}
         <div className="text-center">
@@ -61,7 +61,7 @@ const ComingSoon = () => {
         </form>
         {/* Image */}
         <div className="px-2">  
-          <img src={imgUrl} className='max-w-full w-[640px]'/>
+          <img src={imgUrl} alt="Ping Dashboard" className='max-w-full w-[640px]'/>
         </div>
       </div>
       {/* Footer */}
@@ -69,12 +69,15 @@ const ComingSoon = () => {
         <div className="text-xs">
           <div className="flex justify-center gap-3">  
             <a href="#" className="inline-block rounded-full p-2 border border-secondary text-primary hover:text-white hover:bg-primary hover:border-primary">
+              <span className="hidden">Facebook</span>
               <FaFacebookF/>
             </a>
             <a href="#" className="inline-block rounded-full p-2 border border-secondary text-primary hover:text-white hover:bg-primary hover:border-primary">
+              <span className="hidden">Twitter</span>
               <FaTwitter/>
             </a>
             <a href="#" className="inline-block rounded-full p-2 border border-secondary text-primary hover:text-white hover:bg-primary hover:border-primary">
+              <span className="hidden">Instagram</span>
               <FaInstagram/>
             </a>
           </div>
