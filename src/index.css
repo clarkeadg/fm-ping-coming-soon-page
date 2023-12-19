@@ -10,5 +10,22 @@ body { height: 100%; }
 
 main { background-color: '#fff'; }
 
-.text-dark { color: hsl(209, 33%, 12%); }
+/* Colors */
+
+/* Primary */
+.text-primary { color: hsl(223, 87%, 63%); }
+.bg-primary { background-color: hsl(223, 87%, 63%); }
+.hover\:bg-primary:hover { background-color: hsl(223, 87%, 63%); }
+.border-primary { border-color: hsl(223, 87%, 63%); }
+.focus\:border-primary:focus { border-color: hsl(223, 87%, 63%); }
+
+/* Secondary */
+.text-secondary { color: hsl(223, 100%, 88%); }
+.text-warning { color: hsl(354, 100%, 66%); }
+
+/* Neutral */
 .text-light { color: hsl(0, 0%, 59%); }
+.border-light { border-color: hsl(0, 0%, 59%); }
+.text-dark { color: hsl(209, 33%, 12%); }
+
+

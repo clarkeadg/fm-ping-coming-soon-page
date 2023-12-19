@@ -6,40 +6,49 @@ import './ComingSoon.css'
 
 const ComingSoon = () => {
   return (
-    <div className="font-light relative flex flex-col items-center pb-32"> 
-      <div className="py-4 mb-8">  
-        <img src={logoUrl} className=''/>
-      </div>
-      <h1 className="text-light text-4xl">We are launching <span className="text-dark font-bold">soon!</span></h1>
-      <p className="text-dark text-xl py-4">Subscribe and get notified</p>
-      <div className="flex items-center py-4 mb-8 gap-4">  
-        <div className="h-12">
-          <input 
-            className="border border-gray-300 px-6 w-72 h-full rounded-full overflow-hidden"
-            placeholder="Your email address..."
-          />
+    <div className="font-light relative text-center md:flex flex-col items-center pb-32 "> 
+      <div className="px-5">
+        {/* Logo */}
+        <div className="py-4 mb-8">  
+          <img src={logoUrl} className='m-auto'/>
         </div>
-        <button className="font-semibold bg-blue-500 rounded-full text-white px-12 py-3">
-          Notify Me
-        </button>
+        {/* Copy */}
+        <div className="text-center">
+          <h1 className="text-light text-2xl md:text-4xl">We are launching <span className="text-dark font-bold">soon!</span></h1>
+          <p className="text-dark text-sm md:text-xl py-4">Subscribe and get notified</p>
+        </div>
+        {/* Form */}
+        <div className="md:flex items-center py-4 mb-8 gap-4">  
+          <div className="h-12 mb-4 md:mb-0">
+            <input 
+              className="text-primary border border-light focus:border-primary focus:outline-none px-6 w-full md:w-72 h-full rounded-full overflow-hidden"
+              placeholder="Your email address..."
+            />
+          </div>
+          <button className="font-semibold bg-primary rounded-full text-white w-full md:w-auto px-12 py-3 shadow-lg shadow-blue-200">
+            Notify Me
+          </button>
+        </div>
+        {/* Image */}
+        <div className="py-5">  
+          <img src={imgUrl} className='max-w-full w-[640px]'/>
+        </div>
       </div>
-      <div className="py-4">  
-        <img src={imgUrl} className='max-w-full w-[640px]'/>
-      </div>
+      {/* Footer */}
       <div className="absolute bottom-0 flex justify-center items-end w-full h-32 text-center">
         <div className="text-xs">
           <div className="flex justify-center gap-3">  
-            <a href="#" className="inline-block rounded-full p-2 border border-blue-500 text-blue-500 hover:text-white hover:bg-blue-500">
+            <a href="#" className="inline-block rounded-full p-2 border border-primary text-primary hover:text-white hover:bg-primary">
               <FaFacebookF/>
             </a>
-            <a href="#" className="inline-block rounded-full p-2 border border-blue-500 text-blue-500 hover:text-white hover:bg-blue-500">
+            <a href="#" className="inline-block rounded-full p-2 border border-primary text-primary hover:text-white hover:bg-primary">
               <FaTwitter/>
             </a>
-            <a href="#" className="inline-block rounded-full p-2 border border-blue-500 text-blue-500 hover:text-white hover:bg-blue-500">
+            <a href="#" className="inline-block rounded-full p-2 border border-primary text-primary hover:text-white hover:bg-primary">
               <FaInstagram/>
             </a>
           </div>
-          <p className="text-gray-400 py-4">&copy; Copyright Ping. All rights reserved.</p>
+          <p className="text-light pt-8">&copy; Copyright Ping. All rights reserved.</p>
         </div>
       </div>
     </div>
