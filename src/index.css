@@ -30,5 +30,6 @@ main { background-color: '#fff'; }
 .text-light { color: hsl(0, 0%, 59%); }
 .border-light { border-color: hsl(0, 0%, 59%); }
 .text-dark { color: hsl(209, 33%, 12%); }
+.focus\:text-dark:focus { color: hsl(223, 87%, 63%); }
 
 
