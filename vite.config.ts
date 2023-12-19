@@ -7,5 +7,5 @@ export default defineConfig({
   test: {
     environment: 'jsdom'
   },
-  base: '/fm-qr-code-component/'
+  base: '/fm-ping-coming-soon-page/'
 })
