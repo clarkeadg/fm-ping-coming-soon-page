@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 import logoUrl from '../../assets/images/logo.svg'
 import imgUrl from '../../assets/images/illustration-dashboard.png'
@@ -10,12 +10,12 @@ const ComingSoon = () => {
   const [email, setEmail] = useState("")
   const [error, setError] = useState(false)
 
-  function validateEmail(email) {
+  function validateEmail(email:string) {
     var re = /\S+@\S+\.\S+/;
     return re.test(email);
   }
 
-  const handleType = (val) => {
+  const handleType = (val:string) => {
     setError(false);
     setEmail(val);
   }
