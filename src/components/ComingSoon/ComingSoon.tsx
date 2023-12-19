@@ -68,18 +68,15 @@ const ComingSoon = () => {
       <div className="absolute bottom-0 flex justify-center items-end w-full h-32 text-center">
         <div className="text-xs">
           <div className="flex justify-center gap-3">  
-            <a href="#" className="inline-block rounded-full p-2 border border-secondary text-primary hover:text-white hover:bg-primary hover:border-primary">
-              <span className="hidden">Facebook</span>
+            <div className="inline-block rounded-full p-2 border border-secondary text-primary hover:text-white hover:bg-primary hover:border-primary">
               <FaFacebookF/>
-            </a>
-            <a href="#" className="inline-block rounded-full p-2 border border-secondary text-primary hover:text-white hover:bg-primary hover:border-primary">
-              <span className="hidden">Twitter</span>
+            </div>
+            <div className="inline-block rounded-full p-2 border border-secondary text-primary hover:text-white hover:bg-primary hover:border-primary">
               <FaTwitter/>
-            </a>
-            <a href="#" className="inline-block rounded-full p-2 border border-secondary text-primary hover:text-white hover:bg-primary hover:border-primary">
-              <span className="hidden">Instagram</span>
+            </div>
+            <div className="inline-block rounded-full p-2 border border-secondary text-primary hover:text-white hover:bg-primary hover:border-primary">
               <FaInstagram/>
-            </a>
+            </div>
           </div>
           <p className="text-light pt-8">&copy; Copyright Ping. All rights reserved.</p>
         </div>
