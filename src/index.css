@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { font-size: 15px; min-height: 100%; margin: 0; padding: 0; }
+body { height: 100%; }
+#root { min-height: 100vh; }
+
+main { background-color: hsl(212, 45%, 89%); }
+
+.text-dark { color: hsl(218, 44%, 22%); }
+.text-light { color: hsl(220, 15%, 55%); }
