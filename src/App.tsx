@@ -1,10 +1,10 @@
 import Attribution from './components/Attribution'
-//import QRCode from './components/QRCode'
+import ComingSoon from './components/ComingSoon/ComingSoon'
 
-const App = () => {
+const App = () => { 
   return (
-    <main className="relative flex min-h-screen justify-center items-center py-10">
-
+    <main className="relative flex min-h-screen justify-center py-10">
+      <ComingSoon/>
       <div className="absolute bottom-0 w-full h-10 flex items-center justify-center">
         <Attribution/>
       </div>
