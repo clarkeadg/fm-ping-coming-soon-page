@@ -8,6 +8,7 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [Built with](#built-with)
+- [Getting Started](#getting-started)
 - [Author](#author)
 
 ## Overview
